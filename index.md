@@ -26,8 +26,6 @@ include-achievements: true
 
 {{page.subtitle}}
 
-> Continuous Integration. Continuous Delivery. Continuous Progress.
-
 <ul id="web-address">
 <li><i class="fa-solid fa-at"></i><a href="mailto:{{page.email}}">{{page.email}}</a></li>
 <li><i class="fa-brands fa-github"></i><a href="https://{{page.github}}">{{page.github}}</a></li>
@@ -39,6 +37,8 @@ include-achievements: true
 </ul>
 
 [//]: # (<li><i class="fa-solid fa-house-laptop"></i><a href="https://{{page.home}}">{{page.home}}</a></li>)
+
+> Continuous Integration. Continuous Delivery. Continuous Progress.
 
 ## Currently
 
@@ -86,7 +86,7 @@ I've set myself on a new career path, focusing on building a strong skillset. I'
 
 ## Portfolio
 
-+ ![todo](assets/icons/todo.svg) [Todo-tracker](https://{{page.github}}/todo)
++ ![todo](assets/icons/todo.svg) [Todo Tracker](https://{{page.github}}/todo)
 
 ## Languages
 
@@ -97,7 +97,7 @@ I've set myself on a new career path, focusing on building a strong skillset. I'
 
 `2023`
 **Junior Software Developer**
-[![certificate](assets/icons/certificate.svg)](assets/certs/green-fox-academy-certificate.pdf),
+[![certificate](assets/icons/certificate.svg)](assets/certs/GFA_certificate.pdf),
 _[Bootcamp](https://www.greenfoxacademy.com/en/home),_ 
 Online
 ![internet.svg](assets/icons/internet.svg)
@@ -166,10 +166,6 @@ Carefully planning and creating social media strategies along with content plans
 - Increased fan engagements by 30 % during the first 4 months 
 - Created and wrote 50+ posts and captions
 
-  {% if page.length == 'long' %}
-Implementation of innovative reactions based on own ideas 
-(new method for amidine synthesis or C-N coupling by Ag(I) or Cu(I)).
-  {% endif %}
 {% endif %}
 
 <h2> </h2>
