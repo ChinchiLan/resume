@@ -13,7 +13,7 @@ phone: +420 728 277 630
 include-photo: true
 include-address: true
 include-outline: true
-include-responsibilities: false
+include-responsibilities: true
 include-achievements: true
 #length: long
 ---
@@ -159,7 +159,9 @@ As a freelance social media manager, I've successfully assisted businesses in bo
 
 Carefully planning and creating social media strategies along with content plans, bringing fresh idead to enhance audience engagement. Identifying new trends and opportunities to connect more effectively with the target audience.
 (including e.g. microwave chemistry and photochemistry) on sub-mmol to mol scale.
+{% endif %}
 
+{% if page.include-achievements %}
 ### Achievements
 
 - Expanded clients fan bases by 200 % in 6 months 
