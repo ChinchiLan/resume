@@ -1,14 +1,14 @@
 ---
 layout: cv
 title: Chi Lan Doan 
-subtitle: Software Developer
+subtitle: Software Developer, Social Media Guru
 description: 
 email: chiland04n@gmail.com
 home: chinchilan.github.io
 github: github.com/chinchilan
 linkedin: www.linkedin.com/in/chilandoan
 address: Prague, Czech Republic
-phone: +420 728277630
+phone: +420 728 277 630
 
 include-photo: true
 include-address: true
@@ -68,9 +68,9 @@ I've set myself on a new career path, focusing on building a strong skillset. I'
 + ![team](assets/icons/team.svg)
   Teamwork
 + ![communication](assets/icons/communication.svg)
-  Attention to Detail
+  Communication
 + ![presentation](assets/icons/presentation.svg)
-  Curiosity
+  Presentation
 + ![bulb](assets/icons/bulb.svg)
   Problem Solving
 
