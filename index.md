@@ -1,14 +1,14 @@
 ---
 layout: cv
-title: Matej Kala
-subtitle: Chemist, Software Developer
+title: Chi Lan Doan 
+subtitle: Software Developer
 description: 
-email: kalamatej@gmail.com
-home: ka1amita.github.io
-github: github.com/ka1amita
-linkedin: www.linkedin.com/in/matej-kala
+email: chiland04n@gmail.com
+home: chinchilan.github.io
+github: github.com/chinchilan
+linkedin: www.linkedin.com/in/chilandoan
 address: Prague, Czech Republic
-phone: +420 737 239 310
+phone: +420 728277630
 
 include-photo: true
 include-address: true
@@ -19,14 +19,14 @@ include-achievements: true
 ---
 
 {% if page.include-photo %}
-<img id="photo" src="assets/photo/matejkala.png" alt="Matej Kala">
+<img id="photo" src="assets/photo/Lan.png" alt="Chi Lan Doan">
 {% endif %}
 
 # {{page.title}}
 
 {{page.subtitle}}
 
-> Work smart
+> Continuous Integration. Continuous Delivery. Continuous Progress.
 
 <ul id="web-address">
 <li><i class="fa-solid fa-at"></i><a href="mailto:{{page.email}}">{{page.email}}</a></li>
@@ -43,9 +43,7 @@ include-achievements: true
 ## Currently
 
 <p style="text-align: justify">
-I recently took a leave to get the education needed to start my new career.
-It was amazing to gain so much new knowledge. But I'm not going to end here.
-I have a strong desire to improve my skills and further expand my knowledge to excel in the new job.
+I've set myself on a new career path, focusing on building a strong skillset. I've already made headway with various tools, but my goal is to master them all. This journey is about becoming an expert in my field, and I'm dedicated to making it happen.
 </p>
 
 ## Tech Stack
@@ -53,130 +51,47 @@ I have a strong desire to improve my skills and further expand my knowledge to e
 + <i class="fa-solid fa-star"></i>Java ![java](assets/icons/java.svg)
 + <i class="fa-solid fa-star-half-stroke"></i>Python ![python](assets/icons/python.svg)
 + <i class="fa-solid fa-star"></i>SpringBoot ![spring](assets/icons/spring.svg)
-+ <i class="fa-solid fa-star-half-stroke"></i>Flyway ![flyway](assets/icons/flyway.svg)
 + <i class="fa-solid fa-star-half-stroke"></i>Docker ![docker](assets/icons/docker.svg)
-+ <i class="fa-solid fa-star-half-stroke"></i>AWS ![ec2](assets/icons/ec2.svg)
-+ <i class="fa-regular fa-star"></i>Terraform ![terraform](assets/icons/terraform.svg)
-+ <i class="fa-solid fa-star"></i>CircleCI ![circleci](assets/icons/circleci.svg)
++ <i class="fa-solid fa-star"></i>AWS ![ec2](assets/icons/ec2.svg)
++ <i class="fa-solid fa-star-half-stroke"></i>Terraform ![terraform](assets/icons/terraform.svg)
++ <i class="fa-solid fa-star"></i>Jenkins ![jenkins](assets/icons/jenkins.svg)
 + <i class="fa-solid fa-star-half-stroke"></i>SQL ![mysql](assets/icons/mysql.svg)
-+ <i class="fa-solid fa-star"></i>Git ![git](assets/icons/git.svg)
++ <i class="fa-solid fa-star-half-stroke"></i>Git ![git](assets/icons/git.svg)
++ <i class="fa-solid fa-star-half-stroke"></i>Linux ![git](assets/icons/linux.svg)
 
 [//]: # (<i class="fa-solid fa-star"></i>)
 [//]: # (<i class="fa-solid fa-star-half-stroke"></i>)
 [//]: # (<i class="fa-regular fa-star"></i>)
 
-### Soft Skills
+## Soft Skills
 
 + ![team](assets/icons/team.svg)
   Teamwork
-+ ![search](assets/icons/search.svg)
++ ![communication](assets/icons/communication.svg)
   Attention to Detail
-+ ![ear](assets/icons/ear.svg)
++ ![presentation](assets/icons/presentation.svg)
   Curiosity
 + ![bulb](assets/icons/bulb.svg)
   Problem Solving
 
-### Interests
+## Interests
 
 + ![chatgpt](assets/icons/chatgpt.svg)
   ChatGPT
 + ![chart](assets/icons/chart.svg)
   Data Science
-+ ![farmer](assets/icons/farmer.svg)
-  Volunteering
-  [![certificate](assets/icons/certificate.svg)](assets/certs/230904-caritas-bergeinsatz-nachweis.pdf)
-+ ![teacher](assets/icons/teacher.svg)
-  Teaching in a [climbing club](https://www.vsak.net/)
++ ![ai](assets/icons/ai.svg)
+  Artificial Intelligence
 
-### Portfolio
 
-+ ![yoga](assets/icons/yoga.svg) [Chat Bot](https://{{page.github}}/botasana)
+## Portfolio
+
++ ![todo](assets/icons/todo.svg) [Todo-tracker](https://{{page.github}}/todo)
 
 ## Languages
 
 + ![united-kingdom](assets/icons/united-kingdom.svg) English - full professional proficiency
-+ ![germany](assets/icons/germany.svg) German - intermediate
 + ![czechia](assets/icons/czechia.svg) Czech - native
-
-## Experience
-
-`2020-2022`
-**Process Research Chemist**
-[![certificate](assets/icons/certificate.svg)](assets/certs/syngenta-certificate.pdf),
-_[Syngenta](https://www.syngenta.com/)_,
-Stein (AG), Switzerland
-![switzerland](assets/icons/switzerland.svg)
-
-{% if page.include-outline %}
-### Outline
-
-Member of a small process R&D team developing scalable, safe and cost-efficient processes 
-transferred to kilo-lab 
-and investigating broad range of alternative pathways for patenting purposes 
-or a future development.
-{% endif %}
-
-{% if page.include-responsibilities %}
-### Responsibilities
-
-Skillful planning and execution of multistep organic synthesis using a range of synthetic techniques 
-(including e.g. microwave chemistry and photochemistry) on sub-mmol to mol scale.
-
-  {% if page.length == 'long' %}
-Thorough planning and attention to detail while executing sensitive reactions 
-(e.g. Schlenk techniques, drying and degassing of solvents,
-work-up screening to avoid product decomposition).
-
-Quantification (by qNMR or LC-UV in combination with statistical analysis) of investigated
-reactions
-and sensitive reagents with high degree of precision and accuracy.
-
-Separation (using preparative Flash, TLC or RP-HPLC) and identification 
-(using LC-MS, GC-MS with 1D and 2D NMR spectroscopy) 
-of unknown side-products in proposed speculative reactions.
-
-Optimization ranging from simple solvent screening (using published PCA or cluster analysis data)
-to multi-parameter optimization (using DoE).
-Conducting and analysing a dozen reactions simultaneously.
-
-Understanding laws of physical chemistry, 
-reaction kinetics and reactivity hazards backed up by literature sources 
-and hazard evaluation techniques (DSC) in order to conduct reactions in a safe manner.
-
-Supporting young team members.
-  {% endif %}
-{% endif %}
-
-{% if page.include-achievements %}
-### Achievements
-
-Participation in a project awarded with a company award.
-
-Planning, execution and analysis of a multi-parameter optimization using DoE
-resulting in development of superior conditions giving very high enantioselectivity
-while decreasing expensive ligand and catalyst loadings.
-
-  {% if page.length == 'long' %}
-Implementation of innovative reactions based on own ideas 
-(new method for amidine synthesis or C-N coupling by Ag(I) or Cu(I)).
-  {% endif %}
-{% endif %}
-
-<h2> </h2>
-
-`2016-2019`
-**Process Research Team Leader**,
-_[Farmak](https://www.farmak.cz/)_,
-Olomouc, Czech Republic
-![czechia](assets/icons/czechia.svg)
-
-{% if page.include-outline %}
-### Outline
-
-Development of multi-stage API production processes - from the laboratory route development and
-optimization through scale-up on 15 liters glass reactors to transfer of the final process to the
-pilot-plant for validation.
-{% endif %}
 
 ## Education
 
@@ -187,21 +102,104 @@ _[Bootcamp](https://www.greenfoxacademy.com/en/home),_
 Online
 ![internet.svg](assets/icons/internet.svg)
 
+
+At Green Fox Academy's bootcamp, I learned how to build, deploy web apps, and automate tasks, preparing me for my career. In the final module, I completed a major project, putting into practice all my skills, which provided me with real-world experience.
+
 <h2> </h2>
 
-`2008-2013`
-**Master's degree in Organic Chemistry**
-[![certificate](assets/icons/certificate.svg)](assets/certs/msc-diploma.pdf)
-[![certificate](assets/icons/certificate.svg)](assets/certs/bc-diploma.pdf),
-_[University of Chemistry and Technology](https://www.vscht.cz/?jazyk=en)_, 
+`2016-2020`
+**Diplomacy and International Business**
+_[Prague University of Economics and Business](https://www.vse.cz/english/)_, 
 Prague, Czech Republic
 ![czechia](assets/icons/czechia.svg)
 
-### Courses
+## Courses
 
-**Python 3**
+**Jenkins**
 [![certificate](assets/icons/certificate.svg)](assets/certs/codecademy-certificate.pdf),
-_[Codecademy](https://www.codecademy.com)_
+_[Udemy](https://www.udemy.com)_
+
+**Terraform**
+[![certificate](assets/icons/certificate.svg)](assets/certs/codecademy-certificate.pdf),
+_[Udemy](https://www.udemy.com)_
+
+**Grafana**
+[![certificate](assets/icons/certificate.svg)](assets/certs/codecademy-certificate.pdf),
+_[Udemy](https://www.udemy.com)_
+
+**Prometheus**
+[![certificate](assets/icons/certificate.svg)](assets/certs/codecademy-certificate.pdf),
+_[Udemy](https://www.udemy.com)_
+
+**Linux**
+[![certificate](assets/icons/certificate.svg)](assets/certs/codecademy-certificate.pdf),
+_[Udemy](https://www.udemy.com)_
+
+**Python**
+[![certificate](assets/icons/certificate.svg)](assets/certs/codecademy-certificate.pdf),
+_[Udemy](https://www.udemy.com)_
+
+**AWS**
+[![certificate](assets/icons/certificate.svg)](assets/certs/codecademy-certificate.pdf),
+_[Udemy](https://www.udemy.com)_
+
+## Experience
+
+`2020-2022`
+**Social Media Manager**
+
+{% if page.include-outline %}
+### Outline
+
+As a freelance social media manager, I've successfully assisted businesses in boosting their online presence. My strategies effectively enhanced fan engagement and attracted new customers. Using my skills across various social platforms, I effectively connected these customers to the businesses, aiding in their expansion and visibility.
+{% endif %}
+
+{% if page.include-responsibilities %}
+### Responsibilities
+
+Carefully planning and creating social media strategies along with content plans, bringing fresh idead to enhance audience engagement. Identifying new trends and opportunities to connect more effectively with the target audience.
+(including e.g. microwave chemistry and photochemistry) on sub-mmol to mol scale.
+
+### Achievements
+
+- Expanded clients fan bases by 200 % in 6 months 
+- Increased fan engagements by 30 % during the first 4 months 
+- Created and wrote 50+ posts and captions
+
+  {% if page.length == 'long' %}
+Implementation of innovative reactions based on own ideas 
+(new method for amidine synthesis or C-N coupling by Ag(I) or Cu(I)).
+  {% endif %}
+{% endif %}
+
+<h2> </h2>
+
+`2021 - 2022`
+**Online Marketing Trainee**,
+_[Seznam.cz](http://www.seznam.cz/)_,
+Prague, Czech Republic
+![czechia](assets/icons/czechia.svg)
+
+{% if page.include-outline %}
+### Outline
+
+In my role as a Marketing Trainee I mastered Sklik and digital advertising techniques. I used my knowledge to elevate clients campaigns effectiveness throught strategic benchmarks and client reccomendations. I also took part in organizing Sklik výzva and Seznam.cz Studentská Kampaň projects.
+{% endif %}
+
+<h2> </h2>
+
+`2018 - 2021`
+**Operations Manager**,
+_[Bao Bao](http://www.bistrobaobao.cz/welcome.html)_,
+Prague, Czech Republic
+![czechia](assets/icons/czechia.svg)
+
+{% if page.include-outline %}
+### Outline
+
+As an Operations Manager, my role was key in ensuring smooth operations. From overseeing customer service to managing stock and quality control, I was hands-on in every aspect of the restaurant's functioning. As a team leader, I made sure every part of the restaurant ran smoothly, focusing on great performance and happy customers.
+{% endif %}
+
 
 <!-- ### Footer
 
