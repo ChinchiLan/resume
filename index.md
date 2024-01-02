@@ -38,7 +38,7 @@ include-achievements: true
 
 [//]: # (<li><i class="fa-solid fa-house-laptop"></i><a href="https://{{page.home}}">{{page.home}}</a></li>)
 
-> Continuous Integration. Continuous Delivery. Continuous Progress.
+
 
 ## Currently
 
