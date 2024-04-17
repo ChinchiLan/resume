@@ -1,8 +1,8 @@
 ---
 layout: cv
-title: Chi Lan Doan 
+title: Chi Lan Doan
 subtitle: Software Developer, Social Media Guru
-description: 
+description:
 email: chiland04n@gmail.com
 home: chinchilan.github.io
 github: github.com/chinchilan
@@ -36,9 +36,7 @@ include-achievements: true
 <li><i class="fa-solid fa-phone"></i>{{page.phone}}</li>
 </ul>
 
-[//]: # (<li><i class="fa-solid fa-house-laptop"></i><a href="https://{{page.home}}">{{page.home}}</a></li>)
-
-
+[//]: # '<li><i class="fa-solid fa-house-laptop"></i><a href="https://{{page.home}}">{{page.home}}</a></li>'
 
 ## Currently
 
@@ -48,60 +46,59 @@ I've set myself on a new career path, focusing on building a strong skillset. I'
 
 ## Tech Stack
 
-+ <i class="fa-solid fa-star"></i>Java ![java](assets/icons/java.svg)
-+ <i class="fa-solid fa-star-half-stroke"></i>Python ![python](assets/icons/python.svg)
-+ <i class="fa-solid fa-star"></i>SpringBoot ![spring](assets/icons/spring.svg)
-+ <i class="fa-solid fa-star-half-stroke"></i>Docker ![docker](assets/icons/docker.svg)
-+ <i class="fa-solid fa-star"></i>AWS ![ec2](assets/icons/ec2.svg)
-+ <i class="fa-solid fa-star-half-stroke"></i>Terraform ![terraform](assets/icons/terraform.svg)
-+ <i class="fa-solid fa-star"></i>Jenkins ![jenkins](assets/icons/jenkins.svg)
-+ <i class="fa-solid fa-star-half-stroke"></i>SQL ![mysql](assets/icons/mysql.svg)
-+ <i class="fa-solid fa-star-half-stroke"></i>Git ![git](assets/icons/git.svg)
-+ <i class="fa-solid fa-star-half-stroke"></i>Linux ![git](assets/icons/linux.svg)
+- <i class="fa-solid fa-star"></i>Java ![java](assets/icons/java.svg)
+- <i class="fa-solid fa-star-half-stroke"></i>Python ![python](assets/icons/python.svg)
+- <i class="fa-solid fa-star"></i>SpringBoot ![spring](assets/icons/spring.svg)
+- <i class="fa-solid fa-star-half-stroke"></i>Docker ![docker](assets/icons/docker.svg)
+- <i class="fa-solid fa-star"></i>AWS ![ec2](assets/icons/ec2.svg)
+- <i class="fa-solid fa-star-half-stroke"></i>Terraform ![terraform](assets/icons/terraform.svg)
+- <i class="fa-solid fa-star"></i>Jenkins ![jenkins](assets/icons/jenkins.svg)
+- <i class="fa-solid fa-star-half-stroke"></i>SQL ![mysql](assets/icons/mysql.svg)
+- <i class="fa-solid fa-star-half-stroke"></i>Git ![git](assets/icons/git.svg)
+- <i class="fa-solid fa-star-half-stroke"></i>Linux ![git](assets/icons/linux.svg)
+- <i class="fa-solid fa-star-half-stroke"></i>JavaScript ![javascript](assets/icons/js.svg)
 
-[//]: # (<i class="fa-solid fa-star"></i>)
-[//]: # (<i class="fa-solid fa-star-half-stroke"></i>)
-[//]: # (<i class="fa-regular fa-star"></i>)
+[//]: # '<i class="fa-solid fa-star"></i>'
+[//]: # '<i class="fa-solid fa-star-half-stroke"></i>'
+[//]: # '<i class="fa-regular fa-star"></i>'
 
 ## Soft Skills
 
-+ ![team](assets/icons/team.svg)
+- ![team](assets/icons/team.svg)
   Teamwork
-+ ![communication](assets/icons/communication.svg)
+- ![communication](assets/icons/communication.svg)
   Communication
-+ ![presentation](assets/icons/presentation.svg)
+- ![presentation](assets/icons/presentation.svg)
   Presentation
-+ ![bulb](assets/icons/bulb.svg)
+- ![bulb](assets/icons/bulb.svg)
   Problem Solving
 
 ## Interests
 
-+ ![chatgpt](assets/icons/chatgpt.svg)
+- ![chatgpt](assets/icons/chatgpt.svg)
   ChatGPT
-+ ![chart](assets/icons/chart.svg)
+- ![chart](assets/icons/chart.svg)
   Data Science
-+ ![ai](assets/icons/ai.svg)
+- ![ai](assets/icons/ai.svg)
   Artificial Intelligence
-
 
 ## Portfolio
 
-+ ![todo](assets/icons/todo.svg) [Todo Tracker](https://{{page.github}}/todo)
+- ![todo](assets/icons/todo.svg) [Todo Tracker](https://{{page.github}}/todo)
 
 ## Languages
 
-+ ![united-kingdom](assets/icons/united-kingdom.svg) English - full professional proficiency
-+ ![czechia](assets/icons/czechia.svg) Czech - native
+- ![united-kingdom](assets/icons/united-kingdom.svg) English - full professional proficiency
+- ![czechia](assets/icons/czechia.svg) Czech - native
 
 ## Education
 
 `2023`
 **Junior Software Developer**
 [![certificate](assets/icons/certificate.svg)](assets/certs/GFA_certificate.pdf),
-_[Bootcamp](https://www.greenfoxacademy.com/en/home),_ 
+_[Bootcamp](https://www.greenfoxacademy.com/en/home),_
 Online
 ![internet.svg](assets/icons/internet.svg)
-
 
 At Green Fox Academy's bootcamp, I learned how to build, deploy web apps, and automate tasks, preparing me for my career. In the final module, I completed a major project, putting into practice all my skills, which provided me with real-world experience.
 
@@ -109,7 +106,7 @@ At Green Fox Academy's bootcamp, I learned how to build, deploy web apps, and au
 
 `2016-2020`
 **Diplomacy and International Business**
-_[Prague University of Economics and Business](https://www.vse.cz/english/)_, 
+_[Prague University of Economics and Business](https://www.vse.cz/english/)_,
 Prague, Czech Republic
 ![czechia](assets/icons/czechia.svg)
 
@@ -149,12 +146,14 @@ _[Udemy](https://www.udemy.com)_
 **Social Media Manager**
 
 {% if page.include-outline %}
+
 ### Outline
 
 As a freelance social media manager, I've successfully assisted businesses in boosting their online presence. My strategies effectively enhanced fan engagement and attracted new customers. Using my skills across various social platforms, I effectively connected these customers to the businesses, aiding in their expansion and visibility.
 {% endif %}
 
 {% if page.include-responsibilities %}
+
 ### Responsibilities
 
 Carefully planning and creating social media strategies along with content plans, bringing fresh idead to enhance audience engagement. Identifying new trends and opportunities to connect more effectively with the target audience.
@@ -162,10 +161,11 @@ Carefully planning and creating social media strategies along with content plans
 {% endif %}
 
 {% if page.include-achievements %}
+
 ### Achievements
 
-- Expanded clients fan bases by 200 % in 6 months 
-- Increased fan engagements by 30 % during the first 4 months 
+- Expanded clients fan bases by 200 % in 6 months
+- Increased fan engagements by 30 % during the first 4 months
 - Created and wrote 50+ posts and captions
 
 {% endif %}
@@ -179,6 +179,7 @@ Prague, Czech Republic
 ![czechia](assets/icons/czechia.svg)
 
 {% if page.include-outline %}
+
 ### Outline
 
 In my role as a Marketing Trainee I mastered Sklik and digital advertising techniques. I used my knowledge to elevate clients campaigns effectiveness throught strategic benchmarks and client reccomendations. I also took part in organizing Sklik výzva and Seznam.cz Studentská Kampaň projects.
@@ -193,11 +194,11 @@ Prague, Czech Republic
 ![czechia](assets/icons/czechia.svg)
 
 {% if page.include-outline %}
+
 ### Outline
 
 As an Operations Manager, my role was key in ensuring smooth operations. From overseeing customer service to managing stock and quality control, I was hands-on in every aspect of the restaurant's functioning. As a team leader, I made sure every part of the restaurant ran smoothly, focusing on great performance and happy customers.
 {% endif %}
-
 
 <!-- ### Footer
 
