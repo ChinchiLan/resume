@@ -59,6 +59,7 @@ I've set myself on a new career path, focusing on building a strong skillset. I'
 - <i class="fa-solid fa-star-half-stroke"></i>JavaScript ![javascript](assets/icons/js.svg)
 - <i class="fa-solid fa-star-half-stroke"></i>React ![react](assets/icons/react.svg)
 - <i class="fa-solid fa-star-half-stroke"></i>Node.js ![node](assets/icons/node-js.svg)
+- <i class="fa-solid fa-star-half-stroke"></i>Mongo ![Mongo](assets/icons/mongo.svg)
 
 [//]: # '<i class="fa-solid fa-star"></i>'
 [//]: # '<i class="fa-solid fa-star-half-stroke"></i>'
